@@ -5,7 +5,7 @@
 }
 
 body{
-    background:#ff4655;
+    background:#0f1923;
     color:white;
     font-family:'Rajdhani',sans-serif;
 
@@ -29,7 +29,7 @@ body{
 
     background:rgba(255,255,255,0.05);
 
-    border:1px solid rgba(0,255,153,0.3);
+    border:1px solid #ff4655;
 
     border-radius:20px;
 
@@ -75,7 +75,7 @@ button{
 
     background:#ff4655;
 
-    color:#ff4655;
+    color:white;
 
     border:none;
 
