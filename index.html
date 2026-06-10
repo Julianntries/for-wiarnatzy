@@ -1,55 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Birthday Mission</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <h1>MISSION BRIEFING</h1>
+        <div class="card">
 
-    <div class="card">
-        <h2>AGENT WIARNATZY</h2>
+            <h1>MISSION BRIEFING</h1>
 
-        <p>Objective:</p>
+            <h2>AGENT WIARNATZY</h2>
 
-        <ul>
-            <li>Have Fun</li>
-            <li>Eat Brownies</li>
-            <li>Stay Happy</li>
-            <li>Create Memories</li>
-        </ul>
+            <p class="mission">
+                Today's mission:
+            </p>
 
-        <button onclick="openMessage()">
-            LOCK IN
-        </button>
+            <ul>
+                <li>Eat Brownies 🎂</li>
+                <li>Smile 😊</li>
+                <li>Have Fun 🎉</li>
+                <li>Create Memories 💚</li>
+            </ul>
+
+            <button onclick="showMessage()">
+                LOCK IN
+            </button>
+
+        </div>
+
+        <div id="birthday">
+
+            <h1>🎂 LEVEL 20 TERBUKA! 🎂</h1>
+
+            <p>
+                Selamat ulang tahun!
+            </p>
+
+            <p>
+                Semoga semua impianmu menemukan jalannya,
+                semoga hari dipenuhi kebahagiaan,
+                tambah sholeh,
+                jadi orang baik teros yak,
+                banyakkan pahala,
+                dan semoga selalu dikelilingi orang-orang yang baek.
+            </p>
+
+            <p>
+                Thank you for being you boz
+                Enjoy ur special day w gift from Julian before
+                Semoga bermanfaat💚
+            </p>
+
+        </div>
+
     </div>
 
-</div>
-
-<div id="message" class="hidden">
-
-    <h1>🎂 HAPPY 20TH AGE UP 🎂</h1>
-
-    <p>
-        Selamat sudah berkepala 2 boz,
-        Semoga semua impianmu tercapai,
-        rank kehidupan naik terus,
-        tambah sholeh,
-        dan selalu dikelilingi orang baik ❤️
-    </p>
-
-    <p>
-        Terima kasih sudah  berusaha selama 20 tahun yak boz.
-        Enjoy ur special day w ur gift from me before.
-        Semoga bermanfaat.
-    </p>
-</div>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
