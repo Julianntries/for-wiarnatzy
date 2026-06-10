@@ -1,30 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
     background:#0f1923;
     color:white;
-    font-family:Arial;
+    font-family:'Rajdhani',sans-serif;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
     text-align:center;
+
+    padding:20px;
 }
 
 .container{
-    margin-top:100px;
+    width:100%;
+    max-width:700px;
 }
 
 .card{
-    width:300px;
-    margin:auto;
-    border:2px solid #ff4655;
-    padding:20px;
-    border-radius:10px;
+
+    background:rgba(255,255,255,0.05);
+
+    border:1px solid rgba(0,255,153,0.3);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 0 25px rgba(0,255,153,0.2);
+}
+
+h1{
+    color:#00ff99;
+
+    font-size:3rem;
+
+    letter-spacing:5px;
+
+    text-transform:uppercase;
+
+    margin-bottom:20px;
+}
+
+h2{
+    margin-bottom:20px;
+    color:white;
+}
+
+.mission{
+    margin-bottom:10px;
+}
+
+ul{
+    list-style:none;
+    margin-bottom:30px;
+}
+
+li{
+    margin:10px 0;
+    font-size:1.2rem;
 }
 
 button{
-    background:#ff4655;
-    color:white;
+
+    background:#00ff99;
+
+    color:#0f1923;
+
     border:none;
-    padding:15px 30px;
+
+    padding:15px 40px;
+
+    border-radius:10px;
+
+    font-size:1.1rem;
+
+    font-weight:bold;
+
     cursor:pointer;
+
+    transition:0.3s;
 }
 
-.hidden{
+button:hover{
+    transform:scale(1.05);
+}
+
+#birthday{
     display:none;
+    padding:40px;
+}
+
+#birthday p{
+    margin-top:15px;
+    font-size:1.2rem;
 }
