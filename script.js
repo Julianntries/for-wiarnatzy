@@ -1,7 +1,7 @@
-function openMessage(){
+function showMessage(){
 
-    document.querySelector(".container").style.display="none";
+    document.querySelector(".card").style.display = "none";
 
-    document.getElementById("message").classList.remove("hidden");
+    document.getElementById("birthday").style.display = "block";
 
 }
